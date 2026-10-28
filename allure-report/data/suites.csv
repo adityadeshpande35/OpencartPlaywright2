@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Mar 10 23:38:42 IST 2026","Tue Mar 10 23:38:47 IST 2026","5045","chromium","reporters.spec.ts","","","","title test",""
+"passed","Tue Mar 10 23:38:52 IST 2026","Tue Mar 10 23:39:03 IST 2026","11053","firefox","reporters.spec.ts","","","","search test",""
+"passed","Tue Mar 10 23:38:21 IST 2026","Tue Mar 10 23:38:32 IST 2026","11117","firefox","reporters.spec.ts","","","","logo test",""
+"passed","Tue Mar 10 23:38:11 IST 2026","Tue Mar 10 23:38:19 IST 2026","7339","chromium","reporters.spec.ts","","","","search test",""
+"failed","Tue Mar 10 23:40:39 IST 2026","Tue Mar 10 23:40:46 IST 2026","7208","firefox","reporters.spec.ts","","","","title test",""
+"passed","Tue Mar 10 23:38:03 IST 2026","Tue Mar 10 23:38:11 IST 2026","7702","chromium","reporters.spec.ts","","","","logo test",""

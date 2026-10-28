@@ -1,0 +1,1 @@
+Fruits...... locator('[data-testid]').first() locator('[data-testid]').last() locator('[data-testid]').nth(3)

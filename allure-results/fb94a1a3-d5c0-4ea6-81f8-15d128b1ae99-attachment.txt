@@ -1,0 +1,3 @@
+Row 1: abc123defg | Laptop | $1000 | Electronics | 
+Row 2: xyz789hijk | Smartphone | $800 | Electronics | 
+Row 3: lmn456pqrs | Office Chair | $150 | Furniture | 

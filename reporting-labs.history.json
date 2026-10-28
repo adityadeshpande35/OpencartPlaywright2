@@ -1,0 +1,636 @@
+[
+ {
+  "time": 1791635073150,
+  "duration": 165597.45,
+  "passed": 12,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 13,
+  "tests": {
+   "chromium::tests/apitests/get_api_request_04.spec.ts::Get booking details by name-query param": [
+    "p",
+    1152
+   ],
+   "chromium::tests/AutomaticScrolling.spec.ts::Scrolling inside the table": [
+    "p",
+    6096
+   ],
+   "chromium::tests/dialogs.spec.ts::Prompt Dialogue": [
+    "p",
+    10355
+   ],
+   "chromium::tests/downloadFiles.spec.ts::Download Pdf file and verify it exists": [
+    "p",
+    6739
+   ],
+   "chromium::tests/flakytest.spec.ts::tracing test": [
+    "p",
+    13439
+   ],
+   "chromium::tests/frames.spec.ts::Inner/child frames demo": [
+    "p",
+    3857
+   ],
+   "chromium::tests/keyboardactions.spec.ts::Keyboard Actions - Simple way": [
+    "p",
+    11273
+   ],
+   "chromium::tests/mouseactions.spec.ts::Drag and Drop Handling": [
+    "p",
+    5971
+   ],
+   "chromium::tests/paginationtable.spec.ts::search for specific data in a table": [
+    "p",
+    7409
+   ],
+   "chromium::tests/pwActions.spec.ts::Checkbox actions": [
+    "p",
+    22125
+   ],
+   "chromium::tests/screenshot.spec.ts::screenshots from config": [
+    "f",
+    14538
+   ],
+   "chromium::tests/shadowdom.spec.ts::shadow dom2": [
+    "p",
+    16943
+   ],
+   "chromium::tests/tracing.spec.ts::tracing test": [
+    "p",
+    11280
+   ]
+  }
+ },
+ {
+  "time": 1791656101987,
+  "duration": 21220.926999999996,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/apitests/get_api_request_04.spec.ts::Get booking details by name-query param": [
+    "p",
+    1844
+   ]
+  }
+ },
+ {
+  "time": 1792076113637,
+  "duration": 6915.464,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/apitests/post_api_request_01_createBooking.spec.ts::Create post request using static body": [
+    "p",
+    2526
+   ]
+  }
+ },
+ {
+  "time": 1792076557854,
+  "duration": 3638.6409999999996,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/apitests/post_api_request_01_createBooking.spec.ts::Create post request using static body": [
+    "f",
+    1174
+   ]
+  }
+ },
+ {
+  "time": 1792076704836,
+  "duration": 5054.854,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/apitests/post_api_request_01_createBooking.spec.ts::Create post request using static body": [
+    "f",
+    1754
+   ]
+  }
+ },
+ {
+  "time": 1792076829034,
+  "duration": 3106.333,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/apitests/post_api_request_01_createBooking.spec.ts::Create post request using static body": [
+    "f",
+    1094
+   ]
+  }
+ },
+ {
+  "time": 1792086877082,
+  "duration": 147.66300000000047,
+  "passed": 0,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 0,
+  "tests": {}
+ },
+ {
+  "time": 1792086904717,
+  "duration": 42.99800000000005,
+  "passed": 0,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 0,
+  "tests": {}
+ },
+ {
+  "time": 1793010442245,
+  "duration": 24324.411,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/demo_pw_locator_strategies.spec.ts::Playwright locators": [
+    "p",
+    12363
+   ]
+  }
+ },
+ {
+  "time": 1793010527704,
+  "duration": 13070.776000000002,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/demo_pw_locator_strategies.spec.ts::Playwright locators": [
+    "p",
+    8883
+   ]
+  }
+ },
+ {
+  "time": 1793010964518,
+  "duration": 307.53300000000036,
+  "passed": 0,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 0,
+  "tests": {}
+ },
+ {
+  "time": 1793168296469,
+  "duration": 48869.75499999999,
+  "passed": 9,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 10,
+  "tests": {
+   "chromium::tests/007_demo_locators_filters.spec.ts::1.Verify \"Add to cart\" for Product 2": [
+    "p",
+    7761
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::2.Count items not having \"Out of stock\" (in Stock)": [
+    "p",
+    3607
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::3.Find items with \"In stock\"": [
+    "p",
+    4501
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::4.Verify elements using data-testid": [
+    "p",
+    4683
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::5.Count all elements with test ids": [
+    "p",
+    4178
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::6.Find \"Say goodbye\" button for John": [
+    "p",
+    3072
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::7.Find \"Say hello\" button for Mary": [
+    "p",
+    3566
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::8.Find \"Subscribe\" buttons using multiple conditions": [
+    "p",
+    2952
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::9.Find \"details\" buttons for done tasks": [
+    "p",
+    3510
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::10.Verify stock status counts": [
+    "f",
+    3136
+   ]
+  }
+ },
+ {
+  "time": 1793168658707,
+  "duration": 14396.808999999997,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/007_demo_locators_filters.spec.ts::10.Verify stock status counts": [
+    "p",
+    4210
+   ]
+  }
+ },
+ {
+  "time": 1793168687127,
+  "duration": 11657.580000000002,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/007_demo_locators_filters.spec.ts::1.Verify \"Add to cart\" for Product 2": [
+    "p",
+    4712
+   ]
+  }
+ },
+ {
+  "time": 1793168883241,
+  "duration": 29893.484000000026,
+  "passed": 10,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 10,
+  "tests": {
+   "chromium::tests/007_demo_locators_filters.spec.ts::1.Verify \"Add to cart\" for Product 2": [
+    "p",
+    3810
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::2.Count items not having \"Out of stock\" (in Stock)": [
+    "p",
+    1248
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::3.Find items with \"In stock\"": [
+    "p",
+    1743
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::4.Verify elements using data-testid": [
+    "p",
+    1886
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::5.Count all elements with test ids": [
+    "p",
+    2314
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::6.Find \"Say goodbye\" button for John": [
+    "p",
+    2270
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::7.Find \"Say hello\" button for Mary": [
+    "p",
+    2141
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::8.Find \"Subscribe\" buttons using multiple conditions": [
+    "p",
+    3080
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::9.Find \"details\" buttons for done tasks": [
+    "p",
+    2895
+   ],
+   "chromium::tests/007_demo_locators_filters.spec.ts::10.Verify stock status counts": [
+    "p",
+    1871
+   ]
+  }
+ },
+ {
+  "time": 1793171487979,
+  "duration": 83.69599999999991,
+  "passed": 0,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 0,
+  "tests": {}
+ },
+ {
+  "time": 1793171523666,
+  "duration": 63894.477999999996,
+  "passed": 18,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 19,
+  "tests": {
+   "chromium::tests/008_lab_locators_filters.spec.ts::1.Verify \"Add to cart\" for Product 2": [
+    "p",
+    7301
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::2.Count items not having \"Out of stock\"": [
+    "p",
+    2417
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::3.Find items with \"In stock\"": [
+    "p",
+    3026
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::4.Find items with \"Out of stock\"": [
+    "p",
+    2263
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::5.Verify elements using data-testid": [
+    "p",
+    2695
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::6.Count all elements with test ids": [
+    "p",
+    2704
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::7.Find \"Say goodbye\" button for John": [
+    "p",
+    2666
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::8.Find \"Say hello\" button for Mary": [
+    "p",
+    2813
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::9.Count \"Say hello\" buttons for John": [
+    "p",
+    3848
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::10.Count \"Say goodbye\" buttons for Mary": [
+    "p",
+    3015
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::11.Count all buttons for John": [
+    "p",
+    2590
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::12.Find \"Subscribe\" buttons using multiple conditions": [
+    "p",
+    3029
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::13.Find \"Unsubscribe\" button using .and()": [
+    "p",
+    2517
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::14.Find \"details\" buttons for done tasks": [
+    "p",
+    2497
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::15.Find \"details\" button for pending tasks": [
+    "p",
+    2760
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::16.Count tasks with \"done\" status": [
+    "p",
+    3509
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::17.Find tasks not marked \"done\"": [
+    "p",
+    2977
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::18.Find specific product and verify its button": [
+    "p",
+    3042
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::19.Verify stock status counts": [
+    "f",
+    2451
+   ]
+  }
+ },
+ {
+  "time": 1793171625578,
+  "duration": 8772.459999999963,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/008_lab_locators_filters.spec.ts::1.Verify \"Add to cart\" for Product 2": [
+    "p",
+    3643
+   ]
+  }
+ },
+ {
+  "time": 1793171644453,
+  "duration": 6881.027999999933,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/008_lab_locators_filters.spec.ts::1.Verify \"Add to cart\" for Product 2": [
+    "p",
+    3140
+   ]
+  }
+ },
+ {
+  "time": 1793171670695,
+  "duration": 27010.262000000104,
+  "passed": 19,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 19,
+  "tests": {
+   "chromium::tests/008_lab_locators_filters.spec.ts::1.Verify \"Add to cart\" for Product 2": [
+    "p",
+    3037
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::2.Count items not having \"Out of stock\"": [
+    "p",
+    904
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::3.Find items with \"In stock\"": [
+    "p",
+    994
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::4.Find items with \"Out of stock\"": [
+    "p",
+    1101
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::5.Verify elements using data-testid": [
+    "p",
+    1077
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::6.Count all elements with test ids": [
+    "p",
+    1000
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::7.Find \"Say goodbye\" button for John": [
+    "p",
+    974
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::8.Find \"Say hello\" button for Mary": [
+    "p",
+    1141
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::9.Count \"Say hello\" buttons for John": [
+    "p",
+    834
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::10.Count \"Say goodbye\" buttons for Mary": [
+    "p",
+    1116
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::11.Count all buttons for John": [
+    "p",
+    1167
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::12.Find \"Subscribe\" buttons using multiple conditions": [
+    "p",
+    1215
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::13.Find \"Unsubscribe\" button using .and()": [
+    "p",
+    1145
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::14.Find \"details\" buttons for done tasks": [
+    "p",
+    925
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::15.Find \"details\" button for pending tasks": [
+    "p",
+    981
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::16.Count tasks with \"done\" status": [
+    "p",
+    1072
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::17.Find tasks not marked \"done\"": [
+    "p",
+    1091
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::18.Find specific product and verify its button": [
+    "p",
+    1074
+   ],
+   "chromium::tests/008_lab_locators_filters.spec.ts::19.Verify stock status counts": [
+    "p",
+    856
+   ]
+  }
+ },
+ {
+  "time": 1793179721458,
+  "duration": 23604.615999998525,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/CheckboxDemo.spec.ts::Checkbox Validations": [
+    "p",
+    15283
+   ]
+  }
+ },
+ {
+  "time": 1793179784599,
+  "duration": 84010.67200000025,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/CheckboxDemo.spec.ts::Checkbox Validations": [
+    "f",
+    75906
+   ]
+  }
+ },
+ {
+  "time": 1793179888622,
+  "duration": 20876.51399999857,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/CheckboxDemo.spec.ts::Checkbox Validations": [
+    "p",
+    14840
+   ]
+  }
+ },
+ {
+  "time": 1793180524909,
+  "duration": 25773.40799999982,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/CheckboxDemo.spec.ts::Checkbox Validations": [
+    "p",
+    19659
+   ]
+  }
+ },
+ {
+  "time": 1793182107784,
+  "duration": 29321.764000000432,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/CheckboxDemo.spec.ts::Checkbox Validations": [
+    "p",
+    22405
+   ]
+  }
+ },
+ {
+  "time": 1793182874589,
+  "duration": 28188.74400000088,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/CheckboxDemo.spec.ts::Checkbox Validations": [
+    "p",
+    22333
+   ]
+  }
+ }
+]

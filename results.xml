@@ -1,0 +1,6 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="28.18874400000088">
+<testsuite name="CheckboxDemo.spec.ts" timestamp="2026-10-28T10:21:14.589Z" hostname="chromium" tests="1" failures="0" skipped="0" time="22.333" errors="0">
+<testcase name="Checkbox Validations" classname="CheckboxDemo.spec.ts" time="22.333">
+</testcase>
+</testsuite>
+</testsuites>

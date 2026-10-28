@@ -1,0 +1,11 @@
+Booking id=====> 4862
+Token=====> ae036600e36f853
+Updated response body=====> {
+  firstname: 'John',
+  lastname: 'Kenedy',
+  totalprice: 1000,
+  depositpaid: true,
+  bookingdates: { checkin: '2025-07-01', checkout: '2025-08-01' },
+  additionalneeds: 'orange'
+}
+Booking details updated successfully
