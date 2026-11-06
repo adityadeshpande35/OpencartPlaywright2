@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="28.18874400000088">
-<testsuite name="CheckboxDemo.spec.ts" timestamp="2026-10-28T10:21:14.589Z" hostname="chromium" tests="1" failures="0" skipped="0" time="22.333" errors="0">
-<testcase name="Checkbox Validations" classname="CheckboxDemo.spec.ts" time="22.333">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="29.92243200000003">
+<testsuite name="014_lab_navigations_navbar.spec.ts" timestamp="2026-10-28T14:08:01.648Z" hostname="chromium" tests="1" failures="0" skipped="0" time="18.285" errors="0">
+<testcase name="Navigation anchors move to the expected sections" classname="014_lab_navigations_navbar.spec.ts" time="18.285">
 </testcase>
 </testsuite>
 </testsuites>

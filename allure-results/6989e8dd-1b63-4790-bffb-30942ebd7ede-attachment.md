@@ -1,0 +1,653 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: 
+      - text: AutoPlay
+    - list [ref=e6]:
+      - listitem [ref=e7]:
+        - link " Home" [ref=e8] [cursor=pointer]:
+          - /url: "#home"
+          - generic [ref=e9]: 
+          - text: Home
+      - listitem [ref=e10]:
+        - link " Forms" [ref=e11] [cursor=pointer]:
+          - /url: "#forms"
+          - generic [ref=e12]: 
+          - text: Forms
+      - listitem [ref=e13]:
+        - link " Tables" [ref=e14] [cursor=pointer]:
+          - /url: "#tables"
+          - generic [ref=e15]: 
+          - text: Tables
+      - listitem [ref=e16]:
+        - link " Popups" [ref=e17] [cursor=pointer]:
+          - /url: "#popups"
+          - generic [ref=e18]: 
+          - text: Popups
+      - listitem [ref=e19]:
+        - link " Files" [ref=e20] [cursor=pointer]:
+          - /url: "#files"
+          - generic [ref=e21]: 
+          - text: Files
+      - listitem [ref=e22]:
+        - link " Advanced" [ref=e23] [cursor=pointer]:
+          - /url: "#advanced"
+          - generic [ref=e24]: 
+          - text: Advanced
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - heading " Data Entry Form" [level=3] [ref=e27]:
+        - generic [ref=e28]: 
+        - text: Data Entry Form
+      - generic [ref=e29]:
+        - generic [ref=e30]: Full name
+        - textbox "Full name" [ref=e31]:
+          - /placeholder: John Doe
+          - text: John Doe
+        - generic [ref=e32]: Email
+        - textbox "Email" [ref=e33]:
+          - /placeholder: john@example.com
+          - text: john@example.com
+        - generic [ref=e34]: Phone
+        - textbox "Phone" [ref=e35]:
+          - /placeholder: +1 234 567 890
+          - text: +1 234 567 890
+        - generic [ref=e36]: Address
+        - textbox "Address" [ref=e37]: 123 Main St, City
+        - generic [ref=e38]: Gender
+        - generic [ref=e39]:
+          - generic [ref=e40] [cursor=pointer]:
+            - radio "Male" [ref=e41]
+            - text: Male
+          - generic [ref=e42] [cursor=pointer]:
+            - radio "Female" [ref=e43]
+            - text: Female
+        - generic [ref=e44]: Days (checkboxes)
+        - generic [ref=e45]:
+          - checkbox "Mon" [ref=e46] [cursor=pointer]
+          - generic [ref=e47] [cursor=pointer]: Mon
+          - checkbox "Tue" [ref=e48] [cursor=pointer]
+          - generic [ref=e49] [cursor=pointer]: Tue
+          - checkbox "Wed" [ref=e50] [cursor=pointer]
+          - generic [ref=e51] [cursor=pointer]: Wed
+          - checkbox "Thu" [ref=e52] [cursor=pointer]
+          - generic [ref=e53] [cursor=pointer]: Thu
+          - checkbox "Fri" [ref=e54] [cursor=pointer]
+          - generic [ref=e55] [cursor=pointer]: Fri
+          - checkbox "Sat" [ref=e56] [cursor=pointer]
+          - generic [ref=e57] [cursor=pointer]: Sat
+          - checkbox "Sun" [ref=e58] [cursor=pointer]
+          - generic [ref=e59] [cursor=pointer]: Sun
+        - button " Submit" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: 
+          - text: Submit
+    - generic [ref=e62]:
+      - heading " Dropdowns & more" [level=3] [ref=e63]:
+        - generic [ref=e64]: 
+        - text: Dropdowns & more
+      - generic [ref=e65]: Country
+      - combobox [ref=e66]:
+        - option "India" [selected]
+        - option "USA"
+        - option "UK"
+        - option "Germany"
+        - option "France"
+      - generic [ref=e67]: Multi-select (hold Ctrl)
+      - listbox [ref=e68]:
+        - option "Red" [ref=e69]
+        - option "Blue" [selected] [ref=e70]
+        - option "Green" [ref=e71]
+        - option "Yellow" [ref=e72]
+      - generic [ref=e73]: Fruit list
+      - combobox [ref=e74]:
+        - option "Apple" [selected]
+        - option "Banana"
+        - option "Mango"
+        - option "Orange"
+      - generic [ref=e75]: Scrollable (infinite)
+      - listbox [ref=e76]:
+        - option "Item 1" [ref=e77]
+        - option "Item 2" [ref=e78]
+        - option "Item 3" [ref=e79]
+        - option "Item 4" [ref=e80]
+        - option "Item 5" [ref=e81]
+        - option "Item 6" [ref=e82]
+        - option "Item 7" [ref=e83]
+        - option "Item 8" [ref=e84]
+        - option "Item 9" [ref=e85]
+        - option "Item 10" [ref=e86]
+        - option "Item 11" [ref=e87]
+        - option "Item 12" [ref=e88]
+        - option "Item 13" [ref=e89]
+        - option "Item 14" [ref=e90]
+        - option "Item 15" [ref=e91]
+        - option "Item 16" [ref=e92]
+        - option "Item 17" [ref=e93]
+        - option "Item 18" [ref=e94]
+        - option "Item 19" [ref=e95]
+        - option "Item 20" [ref=e96]
+  - generic [ref=e97]:
+    - generic [ref=e98]:
+      - heading " Date Picker (with navigation)" [level=3] [ref=e99]:
+        - generic [ref=e100]: 
+        - text: Date Picker (with navigation)
+      - generic [ref=e101]: Select the date
+      - textbox "mm/dd/yyyy" [ref=e102]
+    - generic [ref=e103]:
+      - heading " Date Picker (with select)" [level=3] [ref=e104]:
+        - generic [ref=e105]: 
+        - text: Date Picker (with select)
+      - generic [ref=e106]: Select the date
+      - textbox "dd/mm/yyyy" [ref=e107]
+    - generic [ref=e108]:
+      - heading " Date Range Selector" [level=3] [ref=e109]:
+        - generic [ref=e110]: 
+        - text: Date Range Selector
+      - generic [ref=e111]:
+        - textbox [ref=e112]:
+          - /placeholder: Start Date
+        - generic [ref=e113]: to
+        - textbox [ref=e114]:
+          - /placeholder: End Date
+      - button " Submit" [ref=e115] [cursor=pointer]:
+        - generic [ref=e116]: 
+        - text: Submit
+  - generic [ref=e117]:
+    - heading " Static Web Table" [level=3] [ref=e118]:
+      - generic [ref=e119]: 
+      - text: Static Web Table
+    - table [ref=e120]:
+      - rowgroup [ref=e121]:
+        - row "Product Name Category Price Stock Status" [ref=e122]:
+          - cell "Product Name" [ref=e123]
+          - cell "Category" [ref=e124]
+          - cell "Price" [ref=e125]
+          - cell "Stock" [ref=e126]
+          - cell "Status" [ref=e127]
+      - rowgroup [ref=e128]:
+        - row "Laptop Electronics $999 15 In Stock" [ref=e129]:
+          - cell "Laptop" [ref=e130]
+          - cell "Electronics" [ref=e131]
+          - cell "$999" [ref=e132]
+          - cell "15" [ref=e133]
+          - cell "In Stock" [ref=e134]
+        - row "Mouse Electronics $29 50 In Stock" [ref=e135]:
+          - cell "Mouse" [ref=e136]
+          - cell "Electronics" [ref=e137]
+          - cell "$29" [ref=e138]
+          - cell "50" [ref=e139]
+          - cell "In Stock" [ref=e140]
+        - row "Keyboard Electronics $79 0 Out of Stock" [ref=e141]:
+          - cell "Keyboard" [ref=e142]
+          - cell "Electronics" [ref=e143]
+          - cell "$79" [ref=e144]
+          - cell "0" [ref=e145]
+          - cell "Out of Stock" [ref=e146]
+        - row "Monitor Electronics $349 8 In Stock" [ref=e147]:
+          - cell "Monitor" [ref=e148]
+          - cell "Electronics" [ref=e149]
+          - cell "$349" [ref=e150]
+          - cell "8" [ref=e151]
+          - cell "In Stock" [ref=e152]
+  - generic [ref=e153]:
+    - heading " Web Table with CRUD" [level=3] [ref=e154]:
+      - generic [ref=e155]: 
+      - text: Web Table with CRUD
+    - table [ref=e156]:
+      - rowgroup [ref=e157]:
+        - row "# Name Role Action" [ref=e158]:
+          - cell "#" [ref=e159]
+          - cell "Name" [ref=e160]
+          - cell "Role" [ref=e161]
+          - cell "Action" [ref=e162]
+      - rowgroup [ref=e163]:
+        - row "1 Alice Engineer Delete" [ref=e164]:
+          - cell "1" [ref=e165]
+          - cell "Alice" [ref=e166]
+          - cell "Engineer" [ref=e167]
+          - cell "Delete" [ref=e168]:
+            - button "Delete" [ref=e169] [cursor=pointer]
+        - row "2 Bob Designer Delete" [ref=e170]:
+          - cell "2" [ref=e171]
+          - cell "Bob" [ref=e172]
+          - cell "Designer" [ref=e173]
+          - cell "Delete" [ref=e174]:
+            - button "Delete" [ref=e175] [cursor=pointer]
+    - generic [ref=e176]:
+      - textbox "Name" [ref=e177]
+      - textbox "Role" [ref=e178]
+      - button "+ Add" [ref=e179] [cursor=pointer]:
+        - generic [ref=e180]: +
+        - text: Add
+      - button "+ Dynamic" [ref=e181] [cursor=pointer]
+    - textbox "Search table..." [ref=e183]
+  - generic [ref=e184]:
+    - heading " Dynamic System Processes Table" [level=3] [ref=e185]:
+      - generic [ref=e186]: 
+      - text: Dynamic System Processes Table
+    - table [ref=e187]:
+      - rowgroup [ref=e188]:
+        - row "Name CPU (%) Network (Mbps) Disk (MB/s) Memory (MB)" [ref=e189]:
+          - cell "Name" [ref=e190]
+          - cell "CPU (%)" [ref=e191]
+          - cell "Network (Mbps)" [ref=e192]
+          - cell "Disk (MB/s)" [ref=e193]
+          - cell "Memory (MB)" [ref=e194]
+      - rowgroup [ref=e195]:
+        - row "Internet Explorer 2.2% 8.9 Mbps 0.73 MB/s 84.8 MB" [ref=e196]:
+          - cell "Internet Explorer" [ref=e197]
+          - cell "2.2%" [ref=e198]
+          - cell "8.9 Mbps" [ref=e199]
+          - cell "0.73 MB/s" [ref=e200]
+          - cell "84.8 MB" [ref=e201]
+        - row "System 5.6% 8.0 Mbps 0.85 MB/s 47.3 MB" [ref=e202]:
+          - cell "System" [ref=e203]
+          - cell "5.6%" [ref=e204]
+          - cell "8.0 Mbps" [ref=e205]
+          - cell "0.85 MB/s" [ref=e206]
+          - cell "47.3 MB" [ref=e207]
+        - row "Chrome 4.6% 2.7 Mbps 0.84 MB/s 33.6 MB" [ref=e208]:
+          - cell "Chrome" [ref=e209]
+          - cell "4.6%" [ref=e210]
+          - cell "2.7 Mbps" [ref=e211]
+          - cell "0.84 MB/s" [ref=e212]
+          - cell "33.6 MB" [ref=e213]
+        - row "Firefox 1.9% 7.3 Mbps 0.09 MB/s 33.8 MB" [ref=e214]:
+          - cell "Firefox" [ref=e215]
+          - cell "1.9%" [ref=e216]
+          - cell "7.3 Mbps" [ref=e217]
+          - cell "0.09 MB/s" [ref=e218]
+          - cell "33.8 MB" [ref=e219]
+    - generic [ref=e220]:
+      - paragraph [ref=e221]:
+        - text: "CPU load of Chrome process:"
+        - strong [ref=e222]: 4.6%
+        - text: "Memory Size of Firefox process:"
+        - strong [ref=e223]: 33.8 MB
+      - paragraph [ref=e224]:
+        - text: "Network speed of Chrome process:"
+        - strong [ref=e225]: 2.7 Mbps
+        - text: "Disk space of Firefox process:"
+        - strong [ref=e226]: 0.09 MB/s
+  - generic [ref=e227]:
+    - generic [ref=e228]:
+      - heading " Alerts" [level=3] [ref=e229]:
+        - generic [ref=e230]: 
+        - text: Alerts
+      - button "Simple" [ref=e231] [cursor=pointer]
+      - button "Confirm" [ref=e232] [cursor=pointer]
+      - button "Prompt" [ref=e233] [cursor=pointer]
+    - generic [ref=e234]:
+      - heading " Popups" [level=3] [ref=e235]:
+        - generic [ref=e236]: 
+        - text: Popups
+      - button "Popup" [ref=e237] [cursor=pointer]
+      - button "New Tab" [ref=e238] [cursor=pointer]
+      - button "New Window" [ref=e239] [cursor=pointer]
+    - generic [ref=e240]:
+      - heading " Toggle Button" [level=3] [ref=e241]:
+        - generic [ref=e242]: 
+        - text: Toggle Button
+      - button "Start" [ref=e243] [cursor=pointer]
+      - button "Right Click Me" [ref=e244] [cursor=pointer]
+  - generic [ref=e245]:
+    - generic [ref=e246]:
+      - heading " File Upload" [level=3] [ref=e247]:
+        - generic [ref=e248]: 
+        - text: File Upload
+      - generic [ref=e249]:
+        - generic [ref=e250]: Single
+        - generic [ref=e251]:
+          - button "Choose File" [ref=e252]
+          - button "Upload Single File" [ref=e253] [cursor=pointer]
+        - paragraph
+      - generic [ref=e254]:
+        - generic [ref=e255]: Multiple
+        - generic [ref=e256]:
+          - button "Choose File" [ref=e257]
+          - button "Upload Multiple Files" [ref=e258] [cursor=pointer]
+        - paragraph
+    - generic [ref=e259]:
+      - heading " File Download" [level=3] [ref=e260]:
+        - generic [ref=e261]: 
+        - text: File Download
+      - button " Download File" [ref=e262] [cursor=pointer]:
+        - generic [ref=e263]: 
+        - text: Download File
+      - button "Open PDF" [ref=e264] [cursor=pointer]
+  - generic [ref=e265]:
+    - generic [ref=e266]:
+      - heading " Interactive Tooltip" [level=3] [ref=e267]:
+        - generic [ref=e268]: 
+        - text: Interactive Tooltip
+      - text: Hover me
+    - generic [ref=e269]:
+      - heading " Shadow DOM" [level=3] [ref=e270]:
+        - generic [ref=e271]: 
+        - text: Shadow DOM
+      - generic [ref=e272]:
+        - generic [ref=e273]: Mobiles
+        - generic [ref=e276]: Laptops
+        - link "Blog" [ref=e277] [cursor=pointer]:
+          - /url: https://www.pavantestingtools.com/
+        - textbox [ref=e278]
+        - checkbox [ref=e279]
+        - button "Choose File" [ref=e280]
+      - link "Youtube" [ref=e281] [cursor=pointer]:
+        - /url: https://www.youtube.com/@sdetpavan/videos
+    - generic [ref=e282]:
+      - heading " SVG Elements" [level=3] [ref=e283]:
+        - generic [ref=e284]: 
+        - text: SVG Elements
+      - generic [ref=e285]:
+        - generic [ref=e286]:
+          - paragraph [ref=e287]: Basic Shapes
+          - img [ref=e288]
+        - generic [ref=e293]:
+          - paragraph [ref=e294]: Bar Chart
+          - img [ref=e295]:
+            - generic [ref=e301]: A
+            - generic [ref=e302]: B
+            - generic [ref=e303]: C
+            - generic [ref=e304]: D
+            - generic [ref=e305]: E
+  - generic [ref=e306]:
+    - generic [ref=e307]:
+      - heading " Hover & Double Click" [level=3] [ref=e308]:
+        - generic [ref=e309]: 
+        - text: Hover & Double Click
+      - button "Hover me" [ref=e310] [cursor=pointer]
+      - button "Double click" [ref=e311] [cursor=pointer]
+      - generic [ref=e312]:
+        - generic [ref=e313]: Field1
+        - textbox [ref=e314]: Hello World!
+        - generic [ref=e315]: Field2
+        - textbox [ref=e316]
+        - button "Copy Text" [ref=e317] [cursor=pointer]
+        - paragraph [ref=e318]: Double‑click button to copy Field1 → Field2
+    - generic [ref=e319]:
+      - heading " Drag & Drop Interaction" [level=3] [ref=e320]:
+        - generic [ref=e321]: 
+        - text: Drag & Drop Interaction
+      - generic [ref=e322]:
+        - generic [ref=e323]: Drag me
+        - generic [ref=e324]: Drop zone
+    - generic [ref=e325]:
+      - heading " Range Slider" [level=3] [ref=e326]:
+        - generic [ref=e327]: 
+        - text: Range Slider
+      - generic [ref=e328]:
+        - slider [ref=e329]: "50"
+        - generic [ref=e330]: "50"
+      - paragraph [ref=e332]:
+        - generic [ref=e333]: "Price range:"
+        - textbox "Price range:" [ref=e334]: $75 - $300
+  - generic [ref=e339]:
+    - generic [ref=e340]:
+      - heading " Nested frames" [level=3] [ref=e341]:
+        - generic [ref=e342]: 
+        - text: Nested frames
+      - iframe [ref=e343]:
+        - generic [active] [ref=f1e1]:
+          - heading "Outer frame" [level=4] [ref=f1e2]
+          - iframe [ref=f1e3]:
+            - generic [ref=f2e2]:
+              - generic [ref=f2e3]: Inner input
+              - textbox "Inner input" [ref=f2e4]:
+                - /placeholder: Type_here
+    - generic [ref=e344]:
+      - heading " iframe (external)" [level=3] [ref=e345]:
+        - generic [ref=e346]: 
+        - text: iframe (external)
+      - iframe [ref=e347]:
+        - generic [ref=f3e2]:
+          - region "Skip to main content":
+            - link "Skip to main content" [ref=f3e3] [cursor=pointer]:
+              - /url: "#__docusaurus_skipToContent_fallback"
+          - navigation "Main" [ref=f3e4]:
+            - generic [ref=f3e5]:
+              - generic [ref=f3e6]:
+                - button "Toggle navigation bar" [ref=f3e7] [cursor=pointer]:
+                  - img [ref=f3e8]
+                - link "Playwright logo Playwright" [ref=f3e10] [cursor=pointer]:
+                  - /url: /
+                  - img "Playwright logo" [ref=f3e12]
+                  - generic [ref=f3e13]: Playwright
+              - button "Search (Control+k)" [ref=f3e15] [cursor=pointer]:
+                - img [ref=f3e17]
+          - generic [ref=f3e20]:
+            - banner [ref=f3e21]:
+              - generic [ref=f3e22]:
+                - heading "Playwright enables reliable web automation for testing, scripting, and AI agents." [level=1] [ref=f3e23]
+                - paragraph [ref=f3e24]:
+                  - text: One API to drive Chromium, Firefox, and WebKit — in your tests, your scripts, and your agent workflows. Available for
+                  - link "TypeScript" [ref=f3e25] [cursor=pointer]:
+                    - /url: https://playwright.dev/docs/intro
+                  - text: ","
+                  - link "Python" [ref=f3e26] [cursor=pointer]:
+                    - /url: https://playwright.dev/python/docs/intro
+                  - text: ","
+                  - link ".NET" [ref=f3e27] [cursor=pointer]:
+                    - /url: https://playwright.dev/dotnet/docs/intro
+                  - text: ", and"
+                  - link "Java" [ref=f3e28] [cursor=pointer]:
+                    - /url: https://playwright.dev/java/docs/intro
+                  - text: .
+                - generic [ref=f3e29]:
+                  - link "Get started" [ref=f3e30] [cursor=pointer]:
+                    - /url: /docs/intro
+                  - generic [ref=f3e31]:
+                    - link "Star microsoft/playwright on GitHub" [ref=f3e32] [cursor=pointer]:
+                      - /url: https://github.com/microsoft/playwright
+                      - text: Star
+                    - link "97k+ stargazers on GitHub" [ref=f3e34] [cursor=pointer]:
+                      - /url: https://github.com/microsoft/playwright/stargazers
+                      - text: 97k+
+            - main [ref=f3e35]:
+              - generic [ref=f3e38]:
+                - generic [ref=f3e39]:
+                  - heading "Playwright Test" [level=3] [ref=f3e40]
+                  - paragraph [ref=f3e41]: Full-featured test runner with auto-waiting, assertions, tracing, and parallelism across Chromium, Firefox, and WebKit.
+                  - code [ref=f3e42]: npm init playwright@latest
+                  - link "Testing documentation" [ref=f3e44] [cursor=pointer]:
+                    - /url: /docs/intro
+                - generic [ref=f3e45]:
+                  - heading "Playwright CLI" [level=3] [ref=f3e46]
+                  - paragraph [ref=f3e47]: Token-efficient browser automation for coding agents like Claude Code and GitHub Copilot. Skill-based workflows without large context overhead.
+                  - code [ref=f3e48]: npm i -g @playwright/cli@latest
+                  - link "CLI documentation" [ref=f3e50] [cursor=pointer]:
+                    - /url: /docs/getting-started-cli
+                - generic [ref=f3e51]:
+                  - heading "Playwright MCP" [level=3] [ref=f3e52]
+                  - paragraph [ref=f3e53]: Model Context Protocol server that gives AI agents full browser control through structured accessibility snapshots.
+                  - code [ref=f3e54]: npx @playwright/mcp@latest
+                  - link "MCP documentation" [ref=f3e56] [cursor=pointer]:
+                    - /url: /docs/getting-started-mcp
+              - generic [ref=f3e58]:
+                - heading "Built for testing" [level=2] [ref=f3e59]
+                - generic [ref=f3e61]:
+                  - generic [ref=f3e62]:
+                    - heading "Auto-wait and web-first assertions" [level=4] [ref=f3e63]
+                    - paragraph [ref=f3e64]: Playwright waits for elements to be actionable before performing actions. Assertions automatically retry until conditions are met. No artificial timeouts, no flaky tests.
+                    - heading "Test isolation" [level=4] [ref=f3e65]
+                    - paragraph [ref=f3e66]: Each test gets a fresh browser context — equivalent to a brand new browser profile. Full isolation with near-zero overhead. Save authentication state once and reuse it across tests.
+                  - generic [ref=f3e67]:
+                    - heading "Resilient locators" [level=4] [ref=f3e68]
+                    - paragraph [ref=f3e69]:
+                      - text: "Find elements with selectors that mirror how users see the page:"
+                      - code [ref=f3e70]: getByRole
+                      - text: ","
+                      - code [ref=f3e71]: getByLabel
+                      - text: ","
+                      - code [ref=f3e72]: getByPlaceholder
+                      - text: ","
+                      - code [ref=f3e73]: getByTestId
+                      - text: . No brittle CSS paths.
+                    - heading "Parallelism and sharding" [level=4] [ref=f3e74]
+                    - paragraph [ref=f3e75]: Tests run in parallel by default across all configured browsers. Shard across multiple machines for faster CI. Full cross-browser coverage on every commit.
+              - generic [ref=f3e77]:
+                - heading "Built for AI agents" [level=2] [ref=f3e78]
+                - generic [ref=f3e80]:
+                  - generic [ref=f3e81]:
+                    - heading "Accessibility snapshots, not screenshots" [level=4] [ref=f3e82]
+                    - paragraph [ref=f3e83]: Agents interact with pages through structured accessibility trees — element roles, names, and refs. Deterministic and unambiguous, no vision models required.
+                    - heading "MCP server" [level=4] [ref=f3e84]
+                    - paragraph [ref=f3e85]:
+                      - text: Drop-in
+                      - link "Model Context Protocol" [ref=f3e86] [cursor=pointer]:
+                        - /url: https://modelcontextprotocol.io
+                      - text: server for VS Code, Cursor, Claude Desktop, Windsurf, and any MCP client. Full browser control through standard tool calls.
+                  - generic [ref=f3e87]:
+                    - heading "CLI for coding agents" [level=4] [ref=f3e88]
+                    - paragraph [ref=f3e89]: Token-efficient command-line interface with installable skills. Purpose-built for Claude Code, GitHub Copilot, and similar coding agents that need to balance browser automation with large codebases.
+                    - heading "Session monitoring" [level=4] [ref=f3e90]
+                    - paragraph [ref=f3e91]: Visual dashboard with live screencast previews of all running browser sessions. Click any session to zoom in and take control.
+              - generic [ref=f3e93]:
+                - heading "Powerful tooling" [level=2] [ref=f3e94]
+                - generic [ref=f3e96]:
+                  - generic [ref=f3e97]:
+                    - heading "Test generator" [level=4] [ref=f3e98]:
+                      - link "Test generator" [ref=f3e99] [cursor=pointer]:
+                        - /url: docs/codegen
+                    - paragraph [ref=f3e100]: Record your actions in the browser and Playwright writes the test code. Generate assertions from the recording toolbar. Pick locators by clicking on elements.
+                  - generic [ref=f3e101]:
+                    - heading "Trace Viewer" [level=4] [ref=f3e102]:
+                      - link "Trace Viewer" [ref=f3e103] [cursor=pointer]:
+                        - /url: docs/trace-viewer-intro
+                    - paragraph [ref=f3e104]: Full timeline of test execution with DOM snapshots, network requests, console logs, and screenshots at every step. Investigate failures without re-running.
+                  - generic [ref=f3e105]:
+                    - heading "VS Code extension" [level=4] [ref=f3e106]:
+                      - link "VS Code extension" [ref=f3e107] [cursor=pointer]:
+                        - /url: docs/getting-started-vscode
+                    - paragraph [ref=f3e108]: Run, debug, and generate tests directly in the editor. Set breakpoints, live-inspect locators in the browser, and view full execution traces in the sidebar.
+              - generic [ref=f3e110]:
+                - img "Chromium, Firefox, WebKit" [ref=f3e111]
+                - paragraph [ref=f3e112]:
+                  - text: Any browser. Any platform. Chromium, Firefox, and WebKit on Linux, macOS, and Windows. Headless and headed. Also available for
+                  - link "Python" [ref=f3e113] [cursor=pointer]:
+                    - /url: https://playwright.dev/python/docs/intro
+                  - text: ","
+                  - link ".NET" [ref=f3e114] [cursor=pointer]:
+                    - /url: https://playwright.dev/dotnet/docs/intro
+                  - text: ", and"
+                  - link "Java" [ref=f3e115] [cursor=pointer]:
+                    - /url: https://playwright.dev/java/docs/intro
+                  - text: .
+              - generic [ref=f3e119]:
+                - heading "Chosen by companies and open source projects" [level=2] [ref=f3e120]
+                - list [ref=f3e121]:
+                  - listitem [ref=f3e122]:
+                    - link "VS Code" [ref=f3e123] [cursor=pointer]:
+                      - /url: https://code.visualstudio.com
+                      - img "VS Code" [ref=f3e124]
+                  - listitem [ref=f3e125]:
+                    - link "Bing" [ref=f3e126] [cursor=pointer]:
+                      - /url: https://bing.com
+                      - img "Bing" [ref=f3e127]
+                  - listitem [ref=f3e128]:
+                    - link "Outlook" [ref=f3e129] [cursor=pointer]:
+                      - /url: https://outlook.com
+                      - img "Outlook" [ref=f3e130]
+                  - listitem [ref=f3e131]:
+                    - link "Disney+ Hotstar" [ref=f3e132] [cursor=pointer]:
+                      - /url: https://www.hotstar.com/
+                      - img "Disney+ Hotstar" [ref=f3e133]
+                  - listitem [ref=f3e134]:
+                    - link "Material UI" [ref=f3e135] [cursor=pointer]:
+                      - /url: https://github.com/mui-org/material-ui
+                      - img "Material UI" [ref=f3e136]
+                  - listitem [ref=f3e137]:
+                    - link "ING" [ref=f3e138] [cursor=pointer]:
+                      - /url: https://github.com/ing-bank/lion
+                      - img "ING" [ref=f3e139]
+                  - listitem [ref=f3e140]:
+                    - link "Adobe" [ref=f3e141] [cursor=pointer]:
+                      - /url: https://github.com/adobe/spectrum-web-components
+                      - img "Adobe" [ref=f3e142]
+                  - listitem [ref=f3e143]:
+                    - link "React Navigation" [ref=f3e144] [cursor=pointer]:
+                      - /url: https://github.com/react-navigation/react-navigation
+                      - img "React Navigation" [ref=f3e145]
+                  - listitem [ref=f3e146]:
+                    - link "Accessibility Insights" [ref=f3e147] [cursor=pointer]:
+                      - /url: https://accessibilityinsights.io/
+                      - img "Accessibility Insights" [ref=f3e148]
+          - contentinfo [ref=f3e149]:
+            - generic [ref=f3e150]:
+              - generic [ref=f3e151]:
+                - generic [ref=f3e152]:
+                  - generic [ref=f3e153]: Learn
+                  - list [ref=f3e154]:
+                    - listitem [ref=f3e155]:
+                      - link "Getting started" [ref=f3e156] [cursor=pointer]:
+                        - /url: /docs/intro
+                    - listitem [ref=f3e157]:
+                      - link "Playwright Training(opens in new tab)" [ref=f3e158] [cursor=pointer]:
+                        - /url: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+                        - text: Playwright Training
+                        - img "(opens in new tab)" [ref=f3e159]
+                    - listitem [ref=f3e161]:
+                      - link "Learn Videos" [ref=f3e162] [cursor=pointer]:
+                        - /url: /community/learn-videos
+                    - listitem [ref=f3e163]:
+                      - link "Feature Videos" [ref=f3e164] [cursor=pointer]:
+                        - /url: /community/feature-videos
+                - generic [ref=f3e165]:
+                  - generic [ref=f3e166]: Community
+                  - list [ref=f3e167]:
+                    - listitem [ref=f3e168]:
+                      - link "Stack Overflow(opens in new tab)" [ref=f3e169] [cursor=pointer]:
+                        - /url: https://stackoverflow.com/questions/tagged/playwright
+                        - text: Stack Overflow
+                        - img "(opens in new tab)" [ref=f3e170]
+                    - listitem [ref=f3e172]:
+                      - link "Discord(opens in new tab)" [ref=f3e173] [cursor=pointer]:
+                        - /url: https://aka.ms/playwright/discord
+                        - text: Discord
+                        - img "(opens in new tab)" [ref=f3e174]
+                    - listitem [ref=f3e176]:
+                      - link "X(opens in new tab)" [ref=f3e177] [cursor=pointer]:
+                        - /url: https://x.com/playwrightweb
+                        - text: X
+                        - img "(opens in new tab)" [ref=f3e178]
+                    - listitem [ref=f3e180]:
+                      - link "LinkedIn(opens in new tab)" [ref=f3e181] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/playwrightweb
+                        - text: LinkedIn
+                        - img "(opens in new tab)" [ref=f3e182]
+                - generic [ref=f3e184]:
+                  - generic [ref=f3e185]: More
+                  - list [ref=f3e186]:
+                    - listitem [ref=f3e187]:
+                      - link "GitHub(opens in new tab)" [ref=f3e188] [cursor=pointer]:
+                        - /url: https://github.com/microsoft/playwright
+                        - text: GitHub
+                        - img "(opens in new tab)" [ref=f3e189]
+                    - listitem [ref=f3e191]:
+                      - link "YouTube(opens in new tab)" [ref=f3e192] [cursor=pointer]:
+                        - /url: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+                        - text: YouTube
+                        - img "(opens in new tab)" [ref=f3e193]
+                    - listitem [ref=f3e195]:
+                      - link "Blog(opens in new tab)" [ref=f3e196] [cursor=pointer]:
+                        - /url: https://dev.to/playwright
+                        - text: Blog
+                        - img "(opens in new tab)" [ref=f3e197]
+                    - listitem [ref=f3e199]:
+                      - link "Ambassadors" [ref=f3e200] [cursor=pointer]:
+                        - /url: /community/ambassadors
+                    - listitem [ref=f3e201]:
+                      - link "Microsoft Privacy Statement(opens in new tab)" [ref=f3e202] [cursor=pointer]:
+                        - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+                        - text: Microsoft Privacy Statement
+                        - img "(opens in new tab)" [ref=f3e203]
+              - generic [ref=f3e206]: Copyright © 2026 Microsoft
+  - separator [ref=e348]
+  - generic [ref=e349]:
+    - text: Automation Playground
+    - link "@SDET-QA By Pavan" [ref=e350] [cursor=pointer]:
+      - /url: https://www.youtube.com/@sdetpavan
+```

@@ -1,98 +1,5 @@
 [
  {
-  "time": 1791635073150,
-  "duration": 165597.45,
-  "passed": 12,
-  "failed": 1,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 13,
-  "tests": {
-   "chromium::tests/apitests/get_api_request_04.spec.ts::Get booking details by name-query param": [
-    "p",
-    1152
-   ],
-   "chromium::tests/AutomaticScrolling.spec.ts::Scrolling inside the table": [
-    "p",
-    6096
-   ],
-   "chromium::tests/dialogs.spec.ts::Prompt Dialogue": [
-    "p",
-    10355
-   ],
-   "chromium::tests/downloadFiles.spec.ts::Download Pdf file and verify it exists": [
-    "p",
-    6739
-   ],
-   "chromium::tests/flakytest.spec.ts::tracing test": [
-    "p",
-    13439
-   ],
-   "chromium::tests/frames.spec.ts::Inner/child frames demo": [
-    "p",
-    3857
-   ],
-   "chromium::tests/keyboardactions.spec.ts::Keyboard Actions - Simple way": [
-    "p",
-    11273
-   ],
-   "chromium::tests/mouseactions.spec.ts::Drag and Drop Handling": [
-    "p",
-    5971
-   ],
-   "chromium::tests/paginationtable.spec.ts::search for specific data in a table": [
-    "p",
-    7409
-   ],
-   "chromium::tests/pwActions.spec.ts::Checkbox actions": [
-    "p",
-    22125
-   ],
-   "chromium::tests/screenshot.spec.ts::screenshots from config": [
-    "f",
-    14538
-   ],
-   "chromium::tests/shadowdom.spec.ts::shadow dom2": [
-    "p",
-    16943
-   ],
-   "chromium::tests/tracing.spec.ts::tracing test": [
-    "p",
-    11280
-   ]
-  }
- },
- {
-  "time": 1791656101987,
-  "duration": 21220.926999999996,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/apitests/get_api_request_04.spec.ts::Get booking details by name-query param": [
-    "p",
-    1844
-   ]
-  }
- },
- {
-  "time": 1792076113637,
-  "duration": 6915.464,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/apitests/post_api_request_01_createBooking.spec.ts::Create post request using static body": [
-    "p",
-    2526
-   ]
-  }
- },
- {
   "time": 1792076557854,
   "duration": 3638.6409999999996,
   "passed": 0,
@@ -630,6 +537,170 @@
    "chromium::tests/CheckboxDemo.spec.ts::Checkbox Validations": [
     "p",
     22333
+   ]
+  }
+ },
+ {
+  "time": 1793195113776,
+  "duration": 107.83799999999974,
+  "passed": 0,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 0,
+  "tests": {}
+ },
+ {
+  "time": 1793195132679,
+  "duration": 23315.415999999997,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › 4. Checkboxes validation": [
+    "p",
+    18673
+   ]
+  }
+ },
+ {
+  "time": 1793195174098,
+  "duration": 48408.704,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › 4. Checkboxes validation": [
+    "p",
+    28943
+   ]
+  }
+ },
+ {
+  "time": 1793195194027,
+  "duration": 45222.104000002146,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › 4. Checkboxes validation": [
+    "p",
+    26103
+   ]
+  }
+ },
+ {
+  "time": 1793195259125,
+  "duration": 154714.62099999934,
+  "passed": 8,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 9,
+  "tests": {
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › 1. Page Load Validation": [
+    "f",
+    28494
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › 2. Input Fields Validation": [
+    "p",
+    10240
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › 3. Radio button validation": [
+    "p",
+    13028
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › 4. Checkboxes validation": [
+    "p",
+    21901
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › 5. Submit button validation": [
+    "p",
+    15401
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › Empty form submission should show validation message": [
+    "p",
+    19951
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › Invalid email format should show an error": [
+    "p",
+    11044
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › Full name input should restrict more than 15 characters": [
+    "p",
+    12768
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › Phone input should restrict alphabet characters": [
+    "p",
+    10168
+   ]
+  }
+ },
+ {
+  "time": 1793195796252,
+  "duration": 213841.77999999747,
+  "passed": 8,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 9,
+  "tests": {
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › 1. Page Load Validation": [
+    "f",
+    30975
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › 2. Input Fields Validation": [
+    "p",
+    20955
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › 3. Radio button validation": [
+    "p",
+    17852
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › 4. Checkboxes validation": [
+    "p",
+    19610
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › 5. Submit button validation": [
+    "p",
+    18584
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › Empty form submission should show validation message": [
+    "p",
+    19039
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › Invalid email format should show an error": [
+    "p",
+    22430
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › Full name input should restrict more than 15 characters": [
+    "p",
+    21816
+   ],
+   "chromium::tests/013_data_entry_form_validations.spec.ts::Data Entry Form Validation › Phone input should restrict alphabet characters": [
+    "p",
+    18431
+   ]
+  }
+ },
+ {
+  "time": 1793196481659,
+  "duration": 29922.43200000003,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/014_lab_navigations_navbar.spec.ts::Navigation anchors move to the expected sections": [
+    "p",
+    18285
    ]
   }
  }

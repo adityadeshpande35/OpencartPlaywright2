@@ -96,13 +96,13 @@
   },
   "suites": [
     {
-      "title": "CheckboxDemo.spec.ts",
-      "file": "CheckboxDemo.spec.ts",
+      "title": "014_lab_navigations_navbar.spec.ts",
+      "file": "014_lab_navigations_navbar.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Checkbox Validations",
+          "title": "Navigation anchors move to the expected sections",
           "ok": true,
           "tags": [],
           "tests": [
@@ -114,15 +114,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 11,
+                  "workerIndex": 17,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 22333,
+                  "duration": 18285,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-28T10:21:16.530Z",
+                  "startTime": "2026-10-28T14:08:04.821Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -130,18 +130,18 @@
               "status": "expected"
             }
           ],
-          "id": "b74266509c983bd1235a-5d1f3abfecca70599057",
-          "file": "CheckboxDemo.spec.ts",
+          "id": "6d2b648c4acad640a952-8020f6179a7a302e0d0c",
+          "file": "014_lab_navigations_navbar.spec.ts",
           "line": 3,
-          "column": 5
+          "column": 7
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-28T10:21:12.096Z",
-    "duration": 28188.74400000088,
+    "startTime": "2026-10-28T14:07:55.389Z",
+    "duration": 29922.43200000003,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
